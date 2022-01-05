@@ -1,5 +1,66 @@
-*{
+
+
+body{
     margin: 0;
-    padding: 0;
+}
+
+/* container GRID CSS */
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    font-weight: bold;
+    font-size: 20px;
+
+    grid-template-columns: 25% 1fr;
+    grid-template-rows: 8% 1fr 20%;
+
+    gap: 25px;
+    padding: 25px;
     box-sizing: border-box;
 }
+
+/* BOX STYLE CSS */
+
+.box1{
+    position: static;
+    padding: 10px;
+
+    grid-column: 1/2;
+
+    grid-row: 2/3;
+}
+
+.box2{
+    position: static;
+    padding: 10px;
+
+    grid-column: 2/3;
+
+    grid-row: 1/2;
+}
+
+.box3{
+    position: static;
+    padding: 10px;
+
+    grid-column: 2/3;
+
+    grid-row: 2/4;
+}
+
+/* BOX DESIGN CSS */
+
+.box1{
+    box-shadow: 5px 5px 8px 3px rgba(0,0,0,0.27);
+}
+
+.box2{
+    box-shadow: 5px 5px 8px 3px rgba(0,0,0,0.27);
+}
+
+.box3{
+    box-shadow: 5px 5px 8px 3px rgba(0,0,0,0.27);
+}
+
