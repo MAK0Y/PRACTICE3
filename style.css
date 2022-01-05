@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image:url(/IMG/white2.jpg);
+    background-size: cover;
+}
+
 /* container GRID CSS */
 
 .container{
@@ -23,6 +28,7 @@
 /* BOX STYLE CSS */
 
 .box1{
+    background-color: white;
 
     border-radius: 5px;
     
@@ -34,6 +40,7 @@
 }
 
 .box2{
+    background-color: white;
 
     font-weight: bold;
 
